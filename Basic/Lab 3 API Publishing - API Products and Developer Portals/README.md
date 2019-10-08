@@ -68,7 +68,7 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 ![image alt text](./media/image_3.png)
 
-* Enter details in the portal creation wizard. Replace **{your-initials}** with the initials of your name and replace **{api_proxy_name}** with the name of the proxy.
+* Enter details in the portal creation wizard. 
 
   * Name: Employee API Portal
 
