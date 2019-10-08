@@ -1,4 +1,4 @@
-# **Apigee Edge Virtual API Jam - Security**
+# **Apigee API Jam - Security**
 Apigee’s API Jam on Security is a hands-on workshop that will jumpstart your understanding of API security. Our experts will walk you through five lab exercises that will help you throttle, protect, and secure your APIs by utilizing modern security principles like OAuth 2.0 and JWT. 
 
 API developers and architects who want to build a secure API, this workshop is for you!
@@ -19,5 +19,4 @@ This workshop will be valuable to API developers, architects, and anyone who wan
 - [Lab 2: Protect your APIs against content-based threats](https://goo.gl/t1guSF)
 - [Lab 3: OAuth 2.0 based API security](https://goo.gl/xBMaav)
 - [Lab 4: JWT based API security](https://goo.gl/hgg2Uh)
-- [Lab 5: OAuth 2.0 based API security using an External Identity Platform such as Okta](https://goo.gl/6S2iJr)
 - Demo of the Apigee Sense API Security Platform
