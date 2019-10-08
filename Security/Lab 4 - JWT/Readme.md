@@ -14,7 +14,7 @@ You have an API that is consumed by third parties. You want to secure that API u
 
 # **Pre-requisites**
 
-* You have completed [Lab 1](https://github.com/aliceinapiland/AdvancedVirtualAPIJam/tree/master/SecurityJam/Lab%201%20Traffic%20Management%20-%20Throttle%20APIs). If not, please complete that first.
+* You have completed [Lab 1](../Lab%201%20Traffic%20Management%20-%20Throttle%20APIs). If not, please complete that first.
 
 # **Instructions**
 
@@ -98,7 +98,7 @@ Change the JWT token generation policy to include [additional claims](https://do
 
 # **Summary**
 
-* In this lab, you learned how to use Apigee's out of the box JWT policies to both generate and verify a JWT.  Now you can use these policies to actually secure an API using JWT security.  To do so, you would first want to authenticate a user against their IdP (which also contains "claims" about that user/principal) before calling GenerateJWT and issuing the JWT with claims back to that user (for simplicity, we skipped the user authentication step in this lab and hard coded the claims). The API that is protected would invoke VerifyJWT (either directly or via an Apigee endpoint) to verify the JWT and read/verify its claims.
+* In this lab, you learned how to use Apigee's out of the box JWT policies to both generate and verify a JWT.  Now you can use these policies to actually secure an API using JWT security.  To do so, you would first want to authenticate a user against their IdP (which also contains "claims" about that user/principal) before calling GenerateJWT and issuing the JWT with claims back to that user (for simplicity, we skipped the user authentication step in this lab and hard coded the claims). The API that is protected would invoke VerifyJWT to verify the JWT and read/verify its claims.
 
 # **References**
 
