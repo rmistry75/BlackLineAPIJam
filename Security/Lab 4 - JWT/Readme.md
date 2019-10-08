@@ -108,4 +108,3 @@ Change the JWT token generation policy to include [additional claims](https://do
 
 * [Adding Additional Claims to your JWT](https://docs.apigee.com/api-platform/reference/policies/generate-jwt-policy#additionalclaimsclaim)
 
-Now go to [Lab 5](https://goo.gl/6S2iJr).
