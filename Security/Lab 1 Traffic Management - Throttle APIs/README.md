@@ -164,4 +164,3 @@ That completes this hands-on lesson. In this simple lab you learned how to prote
     * Comparing Rate Limiting Policies - [http://docs.apigee.com/api-services/content/comparing-quota-spike-arrest-and-concurrent-rate-limit-policies](http://docs.apigee.com/api-services/content/comparing-quota-spike-arrest-and-concurrent-rate-limit-policies) 
 
 
-Now go to [Lab-2](https://goo.gl/HvkmFV)
