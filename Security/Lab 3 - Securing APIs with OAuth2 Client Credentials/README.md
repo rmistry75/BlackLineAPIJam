@@ -16,7 +16,7 @@ Most typically, the **"client_credentials"** grant type is used when the app is 
 
 # **Pre-requisites**
 
-* You have completed [Lab 1](https://github.com/aliceinapiland/AdvancedVirtualAPIJam/tree/master/SecurityJam/Lab%201%20Traffic%20Management%20-%20Throttle%20APIs). If not, please complete that first.
+* You have completed [Lab 1](./Lab%201%20Traffic%20Management%20-%20Throttle%20APIs). If not, please complete that first.
 
 # **Instructions**
 
@@ -212,5 +212,5 @@ In this lab you learned how to secure your API using two legged OAuth 2.0 in cli
 
 * Search and Revoke tokens - [https://community.apigee.com/articles/1571/how-to-enable-oauth-20-token-search-and-revocation.html](https://community.apigee.com/articles/1571/how-to-enable-oauth-20-token-search-and-revocation.html)
 
-Now go to [Lab 4](https://goo.gl/m1Ae3k).
+
 
