@@ -16,7 +16,7 @@ Most typically, the **"client_credentials"** grant type is used when the app is 
 
 # **Pre-requisites**
 
-* You have completed [Lab 1](./Lab%201%20Traffic%20Management%20-%20Throttle%20APIs). If not, please complete that first.
+* You have completed [Lab 1](../Lab%201%20Traffic%20Management%20-%20Throttle%20APIs). If not, please complete that first.
 
 # **Instructions**
 
