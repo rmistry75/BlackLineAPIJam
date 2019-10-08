@@ -51,7 +51,7 @@ Authorization code is one of the most commonly used OAuth 2.0 grant types. The a
 
 	![image alt text](./media/image_5.png)
 
-* From the code editor, find the base path entry and update it so that it follows this format.
+* From the code editor, find the base path entry and update it so that it follows this format (NOTE: also need to change VirtualHost from "default" to "secure".)
   ```
 	/v1/{your_initials}/oauth_ac
   ```
