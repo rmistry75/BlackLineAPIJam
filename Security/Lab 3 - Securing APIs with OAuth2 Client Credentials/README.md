@@ -145,7 +145,7 @@ You will now see your list of Apps again.  Click on your **Mock Target App** aga
 
 ## To Test OAuth Token generation and API protection
 
-1. First, send a valid request to the OAuth token endpoint to generate a valid access token. You can send this request either using a REST client like the one [here](https://apigee-rest-client.appspot.com/), or using **curl** in your Linux/Mac terminal. The request to send is:
+1. First, send a valid request to the OAuth token endpoint to generate a valid access token. You can send this request either using a REST client like the one [here](https://apigee-restclient.appspot.com/), or using **curl** in your Linux/Mac terminal. The request to send is:
 
 ```
 POST /oauth/client_credential/accesstoken?grant_type=client_credentials HTTP/1.1
