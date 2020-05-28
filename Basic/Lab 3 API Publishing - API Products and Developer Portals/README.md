@@ -76,7 +76,7 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 * Click **Create**
 
-![image alt text](./media/image_4.png)
+
 
 ## Publish an API Product to the Portal
 
