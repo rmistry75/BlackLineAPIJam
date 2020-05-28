@@ -62,7 +62,7 @@ For this lab, you will need an API proxy that is not currently secured.  If you 
 
 ![image alt text](./media/image_4.png)
 
-* Select *Verify API Key* policy from the *Security* section of the list.  The name can be changed or left at the default.
+* Select *Verify API Key* policy from the *Security* section of the list. Name the policy "VAK-VerifyKey" as shown below.
 
 * Click **Add**
 
