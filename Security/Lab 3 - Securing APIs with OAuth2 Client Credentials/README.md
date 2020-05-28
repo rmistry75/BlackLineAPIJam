@@ -43,7 +43,7 @@ As part of this lab, we will:
 
 ![image alt text](./media/image_2.png)
 
-Download the API proxy "oauth.zip" that implements OAuth client credentials grant type [here](https://github.com/aliceinapiland/AdvancedVirtualAPIJam/blob/master/SecurityJam/Lab%203%20-%20Securing%20APIs%20with%20OAuth2%20Client%20Credentials/oauth.zip?raw=true). 
+Download the API proxy "oauth.zip" that implements OAuth client credentials grant type [here](https://github.com/rmistry75/APIJam/blob/master/Security/Lab%203%20-%20Securing%20APIs%20with%20OAuth2%20Client%20Credentials/oauth.zip?raw=true). 
 
 Back in the proxy creation wizard, click "Choose File", select the “oauth.zip” file you just downloaded and click **Next**:
 
