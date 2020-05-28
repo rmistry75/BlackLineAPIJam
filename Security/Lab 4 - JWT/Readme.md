@@ -52,7 +52,7 @@ You have an API that is consumed by third parties. You want to secure that API u
 
 ![image alt text](./media/image_6.png)
 
-* Download the Apigee proxy "**JWT.zip**" that generates and verifies JWT’s [here](https://github.com/aliceinapiland/AdvancedVirtualAPIJam/blob/master/SecurityJam/Lab%204%20-%20JWT/JWT.zip?raw=true).  Then click "**Choose File**", select the “**JWT.zip**” file you just downloaded and click **Next**:
+* Download the Apigee proxy "**JWT.zip**" that generates and verifies JWT’s [here](https://github.com/rmistry75/APIJam/blob/master/Security/Lab%204%20-%20JWT/JWT.zip?raw=true).  Then click "**Choose File**", select the “**JWT.zip**” file you just downloaded and click **Next**:
 
 ![image alt text](./media/image_7.png)
 
@@ -70,7 +70,7 @@ You have an API that is consumed by third parties. You want to secure that API u
 
 * Start by turning on **Trace** for the JWT proxy.
 
-* Then use the Apigee Rest Client: [https://apigee-rest-client.appspot.com/](https://apigee-rest-client.appspot.com/)
+* Then use the Apigee Rest Client: [https://apigee-restclient.appspot.com/](https://apigee-restclient.appspot.com/)
 
 * POST to https://**{your-org-name}**-test.apigee.net/v1/jwt/token
 
