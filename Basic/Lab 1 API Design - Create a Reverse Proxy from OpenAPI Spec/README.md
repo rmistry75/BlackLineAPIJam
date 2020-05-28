@@ -62,12 +62,12 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 * Verify the values and click **Next**.
 
+* Select **Pass through (no authorization)** in order to choose not to apply any security policy for the proxy. Click **Next**. 
+![image alt text](./media/image_12.png)
+
 * You can select, de-select list of API Proxy Resources that are pre-filled from the OpenAPI Spec. Make sure all resources are selected and click on **Next**.
 
 ![image alt text](./media/image_11.png)
-
-* Select **Pass through (none)** for the authorization in order to choose not to apply any security policy for the proxy. Click **Next**. 
-![image alt text](./media/image_12.png)
 
 * The next pane allows us to decide whether the proxy will be available over http (default), https (secure), or both. In this case, our API deals with employee data. This is generally sensitive information, so we will only allow access via https. If we allowed access via http, all traffic to and from the API would be in plaintext across the internet. Unless there is a specific requirement to expose a specific API via http, you should always only allow access via https. **Uncheck the default virtual host and click Next**.
 ![image alt text](./media/image_13.png)
