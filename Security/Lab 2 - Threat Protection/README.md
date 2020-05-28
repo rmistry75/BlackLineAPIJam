@@ -121,7 +121,7 @@ Content-Type: application/json
 }
 ```
 
-You can make this call either using a REST client like the one [here](https://apigee-rest-client.appspot.com/), or using a terminal command such as **curl**.
+You can make this call either using a REST client like the one [here](https://apigee-restclient.appspot.com/), or using a terminal command such as **curl**.
 ```
 curl -X POST "http://{{your-org}}-{{your-env}}.apigee.net/mock-target-api/echo" -H "Content-Type: application/json" -d '{"field1": "test_value1", "field2": "test_value2", "field3": "test_value3", "field4": "test_value4", "field5": "test_value5"}'
 ```
