@@ -36,11 +36,12 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 ![image alt text](./media/image_7.png)
 
 * You should see a popup with access to either use a previously imported Open API Spec, upload a new Spec or Import from a URL. Select the **Import from a URL** tab. Here, provide the following values:
-  * Spec Name: Employee Backend
 
   * URL: [https://raw.githubusercontent.com/rmistry75/APIJam/master/Basic/Resources/employee-spec.yaml](https://raw.githubusercontent.com/rmistry75/APIJam/master/Basic/Resources/employee-spec.yaml)
+  
+  * Spec Name: Employee Backend
 
-* Click **Select.** 
+* Click **Import** 
 
 ![image alt text](./media/image_8.png)
 
