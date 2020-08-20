@@ -31,11 +31,11 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 * Click **+Proxy** The Build a Proxy wizard is invoked. 
 ![image alt text](./media/image_6.png)
 
-* Select **Reverse proxy**, Click on **Use OpenAPI** below reverse proxy option.
+* Under **Reverse proxy**, Click on **Use OpenAPI spec** below reverse proxy option.
 
 ![image alt text](./media/image_7.png)
 
-* You should see a popup with access to either use a previously imported Open API Spec, upload a new Spec or Import from a URL. Select the **Import from a URL** tab. Here, provide the following values:
+* You should see a popup with access to either use a previously imported Open API Spec, upload a new Spec or Import from a URL. Select the **Import from URL** tab. Here, provide the following values:
 
   * URL: [https://raw.githubusercontent.com/rmistry75/APIJam/master/Basic/Resources/employee-spec.yaml](https://raw.githubusercontent.com/rmistry75/APIJam/master/Basic/Resources/employee-spec.yaml)
   
@@ -53,7 +53,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 ![image alt text](./media/image_10.png)
 
-* You should see the "Flows" screen as shown below. Ensure all flows are selected and click **Next**.
+* You should see the "Flows" screen as shown below. Ensure all flows/paths are selected and click **Next**.
 
 ![image alt text](./media/image_12.png)
 
@@ -61,10 +61,10 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 ![image alt text](./media/image_11.png)
 
-* You should see the Summary page as shown below. You are now ready to build and deploy your API proxy.  **Click the "test" environment checkbox and click Create and deploy**.
+* You should see the "Summary" page as shown below. You are now ready to build and deploy your API proxy.  **Click the "test" environment checkbox and click Create and deploy**.
 ![image alt text](./media/image_13.png)
 
-* The proxy is certainly not ready to deploy to production yet! Ensure that only the **test** environment is selected and click **Build and Deploy**.
+* You should see that the proxy has been created and deployed to the test environment as shown below. Click **Edit proxy**.
 ![image alt text](./media/image_14.png)
 
 * You should see that the proxy has been generated, uploaded, and deployed to test. Once the API proxy is built and deployed, click the **employees-v1** link to view your proxy in the proxy editor.
