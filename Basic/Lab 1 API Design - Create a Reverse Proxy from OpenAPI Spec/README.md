@@ -79,7 +79,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 ![image alt text](./media/image_3.png)
 
-* Click on the "Employee Backend" spec from the list to access the OpenAPI spec editor and interactive documentation that lists the backend API details and resources.
+* Click on the "Employee Backend" spec from the list to open the OpenAPI spec editor and interactive documentation that lists the backend API details and resources (as shown below).
 
 ![image alt text](./media/image_4.png)
 
@@ -87,11 +87,9 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 * Let us test the newly built API proxy using the [Apigee REST Client](https://apigee-restclient.appspot.com/). Open the REST Client in a new browser window.  
 
-* Copy the URL for your API proxy.  It should be https://{your-org}-test.apigee.net/employees-api/employees (where "{your-org}" is your unique Apigee org name). 
+* Copy the URL for your API proxy.  It should be something like https://{your-org}-test.apigee.net/employees-api/employees (where "{your-org}" is your unique Apigee org name). 
 
-![image alt text](./media/image_17.png)
-
-* Paste the link into the REST Client and make a GET call
+* Paste the URL into the REST Client and make a GET call by clicking "Send".
 
 ![image alt text](./media/image_18.png)
 
