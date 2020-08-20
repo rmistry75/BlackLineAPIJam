@@ -67,12 +67,9 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 * You should see that the proxy has been created and deployed to the test environment as shown below. Click **Edit proxy**.
 ![image alt text](./media/image_14.png)
 
-* You should see the proxy "Overview" screen as shown below.  In the Deployments section, your URL should look like https://{your-org}-test.apigee.net/employees-api (where "{your-org}" is your unique Apigee org name) and in the Target Endpoints section your Target URL should be exactly the same. Click the **Trace** tab on the upper right.
+* You should see the proxy "Overview" screen as shown below.  In the Deployments section, your URL should look like https://{your-org}-test.apigee.net/employees-api (where "{your-org}" is your unique Apigee org name) and in the Target Endpoints section your Target URL should be exactly the same.
 
 ![image alt text](./media/image_15.png)
-
-* You should see the proxy **Overview** screen.
-![image alt text](./media/image_16.png)
 
 * *Congratulations!* ...You have now built a reverse proxy for an existing backend service.
 
