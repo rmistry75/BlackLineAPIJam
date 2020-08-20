@@ -56,7 +56,7 @@ For this lab, you will need an API proxy that is not currently secured.  If you 
 
 * Menu: **Develop > API Proxies**
 
-* Open your API proxy and click the **Develop** tab (in the upper right area of the page) to see the flow editor (you may have to move the panes to see the full request and response flow lines)
+* Open your API proxy and click the **Develop** tab (in the upper right area of the page) to see the flow editor (you may have to move the panes to see the full request and response flow lines). Make sure the the "PreFlow" Proxy Endpoint is selected in the left side pane.
 
 * Click **+Step** on the request flow.
 
