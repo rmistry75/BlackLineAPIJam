@@ -61,7 +61,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 ![image alt text](./media/image_11.png)
 
-* The next pane allows us to decide whether the proxy will be available over http (default), https (secure), or both. In this case, our API deals with employee data. This is generally sensitive information, so we will only allow access via https. If we allowed access via http, all traffic to and from the API would be in plaintext across the internet. Unless there is a specific requirement to expose a specific API via http, you should always only allow access via https. **Uncheck the default virtual host and click Next**.
+* You should see the Summary page as shown below. You are now ready to build and deploy your API proxy.  **Click the "test" environment checkbox and click Create and deploy**.
 ![image alt text](./media/image_13.png)
 
 * The proxy is certainly not ready to deploy to production yet! Ensure that only the **test** environment is selected and click **Build and Deploy**.
