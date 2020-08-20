@@ -45,28 +45,19 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 ![image alt text](./media/image_8.png)
 
-* You can see the imported OpenAPI Spec URL below the Reverse Proxy option, Click **Next** to continue.
+* You should see the "Proxy details" screen as shown below. Leave the default values (unless there is a conflict). Click **Next** to continue.
 
 ![image alt text](./media/image_9.png)
 
-* Enter the proxy name, base path, and description. This is the first version of our Employees API, so we'll make it version 1. When you enter the proxy name, the proxy base path will automatically be populated, but you'll need to change the hyphen before the version to a forward slash. 
-
-  * Proxy Name: employees-v1
-
-  * Proxy Base Path: /employees/v1
-
-  * Existing API: Observe the field value which is auto filled from OpenAPI Spec.
-
-  * Description: Employees API v1
+* You should see the "Policies" screen as shown below.  Leave the default values and click **Next** to continue.
 
 ![image alt text](./media/image_10.png)
 
-* Verify the values and click **Next**.
+* You should see the "Flows" screen as shown below. Ensure all flows are selected and click **Next**.
 
-* Select **Pass through (no authorization)** in order to choose not to apply any security policy for the proxy. Click **Next**. 
 ![image alt text](./media/image_12.png)
 
-* You can select, de-select list of API Proxy Resources that are pre-filled from the OpenAPI Spec. Make sure all resources are selected and click on **Next**.
+* You should see the "Virtual hosts" screen as shown below. Only choose the secure (https) virtual host and click on **Next**.
 
 ![image alt text](./media/image_11.png)
 
