@@ -83,6 +83,10 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 ![image alt text](./media/image_4.png)
 
+* The host still points to the Apigee Org from which you copied the spec. Update this with your Org. It should look like {amer-poc8}-test.apigee.net where "{your-org}" is your unique Apigee org name.
+
+![image alt text](./media/image_21.png)
+
 # Test the API Proxy
 
 * Let us test the newly built API proxy using the [Apigee REST Client](https://apigee-restclient.appspot.com/). Open the REST Client in a new browser window.  
