@@ -98,7 +98,7 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 ![image alt text](./media/image_9.png)
 
-* Select the OpenAPI Specification to use as a source. (NOTE: technically, you should update the "path:" variables in your OpenAPI Spec that you created in Lab 1 to include the API key that you added to your proxy. However, for the purposes of this lab, it is also OK to use your existing OpenAPI Spec as is.) The current version (snapshot) of the selected OpenAPI Specification will be used to generate the documentation for this API product in the portal.
+* Select the OpenAPI Specification to use as a source. The current version (snapshot) of the selected OpenAPI Specification will be used to generate the documentation for this API product in the portal.
 
 ![image alt text](./media/image_8.png)
 
@@ -113,7 +113,9 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 ![image alt text](./media/image_11.png)
 
-* The Portal will display live documentation based on the OpenAPI Specification. The left pane is an index of the resources and API calls documented. The center pane shows the documentation for the selected item. The right pane allows the user to try out the API. Select the first API documented in the left pane. This API returns a list of all employees. Depending on the method, you’d expect to see model details, response codes, etc., as per the [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md). Try the API yourself using the right pane. 
+* The Portal will display live documentation based on the OpenAPI Specification. The left pane is an index of the resources and API calls documented. The center pane shows the documentation for the selected item. The right pane allows the user to try out the API. 
+
+* Select the first API documented in the left pane. This API returns a list of all employees. Depending on the method, you’d expect to see model details, response codes, etc., as per the [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md). Try the API yourself using the right pane. 
 
 ![image alt text](./media/image_12.png)
 
