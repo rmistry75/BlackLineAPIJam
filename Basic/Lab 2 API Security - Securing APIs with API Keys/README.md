@@ -113,7 +113,7 @@ securityDefinitions:
 
 ![image alt text](./media/image_7.png)
 
-* Scroll back to the top and add the following lines. This specifies that the api key security definition is applied to all paths in the api.
+* Scroll back to the top and add the following lines. This specifies that the APIKeyQueryParam security definition is applied to all paths in the api.
 
 ```
 security:
