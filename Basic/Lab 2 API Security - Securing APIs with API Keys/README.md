@@ -114,6 +114,8 @@ In this lab you learned how to protect your API proxy using the Verify API Key p
 * Link to Apigee docs page
 
     * Verify Api Key Policy [https://docs.apigee.com/api-platform/reference/policies/verify-api-key-policy](https://docs.apigee.com/api-platform/reference/policies/verify-api-key-policy)
+    
+    * Visualizing the flow of an API proxy [https://docs.apigee.com/api-platform/fundamentals/introduction-flow-variables#understandingflowvariablescope](https://docs.apigee.com/api-platform/fundamentals/introduction-flow-variables#understandingflowvariablescope)
 
 # Rate this lab
 
