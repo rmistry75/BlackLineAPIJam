@@ -80,7 +80,7 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 ## Publish an API Product to the Portal
 
-* Click the Portal Editor’s dropdown and select **APIs**.
+* Click the Portal Editor’s dropdown and select **API catalog**.
 
 ![image alt text](./media/image_5.png)
 
