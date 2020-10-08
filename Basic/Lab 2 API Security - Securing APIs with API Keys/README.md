@@ -1,6 +1,6 @@
 # API Security : Securing APIs with API Keys
 
-*Duration : 10 mins*
+*Duration : 15 mins*
 
 *Persona : API Team*
 
@@ -94,6 +94,33 @@ For this lab, you will need an API proxy that is not currently secured.  If you 
 * NOTE: In Lab 4, you will get an API Key that will allow you to make this API call successfully.
 
 ![image alt text](./media/image_6.png)
+
+## Update the API Spec
+
+We can update our API's documentation to reflect the new Verify API Key policy.
+
+* Menu: **Develop > Specs > Employee Backend**
+
+* Scroll to the bottom and add the following lines. This specifies that an api key is required, it will be called apikey, and it will be found in the query parameters.
+
+```
+securityDefinitions:
+   APIKeyQueryParam:
+     type: apiKey
+     in: query
+     name: apikey
+```
+
+![image alt text](./media/image_7.png)
+
+* Scroll back to the top and add the following lines. This specifies that the api key security definition is applied to all paths in the api.
+
+```
+security:
+  - APIKeyQueryParam: []
+```
+
+![image alt text](./media/image_8.png)
 
 # Lab Video
 
