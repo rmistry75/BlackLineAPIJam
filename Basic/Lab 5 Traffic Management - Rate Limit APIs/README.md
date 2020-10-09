@@ -67,6 +67,8 @@ For the **Platinum** product specify a quota limit of 1000 requests per minute:
 
 ![image alt text](./media/image_2.png)	
 
+## Register apps
+
 * Navigate to Menu > **Publish > Apps**. Click +App to register a new app.
 
 * Fill out the fields as follows
