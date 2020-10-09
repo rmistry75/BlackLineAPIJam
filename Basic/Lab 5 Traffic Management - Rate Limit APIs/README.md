@@ -67,7 +67,34 @@ For the **Platinum** product specify a quota limit of 1000 requests per minute:
 
 ![image alt text](./media/image_2.png)	
 
-* Using the developer portal, register 2 new developer apps, one for each of your new products (refer back to [Lab-4](../Lab%204%20API%20Consumption%20-%20Developers%20and%20Apps) if you don't remember how to register a developer app). Record the API keys for each app.
+* Navigate to Menu > **Publish > Apps**. Click +App to register a new app.
+
+* Fill out the fields as follows
+    * Name: Employees Bronze App
+    
+    * Display Name: Employees Bronze Product
+    
+    * Developer: select the account you registered in the developer portal
+    
+    * Add product: Employees Bronze Product
+    
+![image alt text](./media/image_4.png)	
+    
+* Click Create. Copy the API key to a separate notes file.
+
+* Register another app to use the Platinum product. For the platinum app, fill out the fields as follows
+
+    * Name: Employees Platinum App
+    
+    * Display Name: Employees Platinum Product
+    
+    * Developer: select the account you registered in the developer portal
+    
+    * Add product: Employees Platinum Product
+    
+![image alt text](./media/image_5.png)
+
+* Click Create. Copy the API key to a separate notes file.
 
 * Launch the [REST Test client](https://apigee-restclient.appspot.com/) and run some tests using each API key. Verify that the *Bronze* API key cannot be used to send in more than 1 request per minute without triggering a quota exceeded exception:
 
