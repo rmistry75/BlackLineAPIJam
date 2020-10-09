@@ -100,23 +100,23 @@ For the **Platinum** product specify a quota limit of 1000 requests per minute:
 
 * Launch the [REST Test client](https://apigee-restclient.appspot.com/) and run some tests using each API key. Remember the proxy endpoint will look like this:
 
-https://{your-org}-{environment}.apigee.net/{base-path}/{resource-path}?{query-param}={value}
+    https://{your-org}-{environment}.apigee.net/{base-path}/{resource-path}?{query-param}={value}
 
-where {your-org} is the name of your Apigee Org.
+    where {your-org} is the name of your Apigee Org.
 
-{environment} is the name of the environment where your proxy is deployed.
+    {environment} is the name of the environment where your proxy is deployed.
 
-{base-path} is the base path of your proxy ("employees-api" for this lab).
+    {base-path} is the base path of your proxy ("employees-api" for this lab).
 
-{resource-path} is the name of the resource you want to access. For example: /employees.
+    {resource-path} is the name of the resource you want to access. For example: /employees.
 
-{query-param} is the name of the query parameter you want to set ("apikey" for this lab).
+    {query-param} is the name of the query parameter you want to set ("apikey" for this lab).
 
-{value} is the key you received when you registered the app, either in the developer portal or Apigee editor.
+    {value} is the key you received when you registered the app, either in the developer portal or Apigee editor.
 
-An example of this all together is https://my-trial-org-test.apigee.net/employees-api/employees?apikey=NG69OTJBtc5HjqIPAeIeOGGQBJgAAmkm
+    An example of this all together is https://my-trial-org-test.apigee.net/employees-api/employees?apikey=NG69OTJBtc5HjqIPAeIeOGGQBJgAAmkm
 
-Verify that the *Bronze* API key cannot be used to send in more than 1 request per minute without triggering a quota exceeded exception:
+    Verify that the *Bronze* API key cannot be used to send in more than 1 request per minute without triggering a quota exceeded exception:
 
 ![image alt text](./media/image_3.png)
 
