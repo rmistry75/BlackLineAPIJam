@@ -114,7 +114,7 @@ Typically, developers who want to consume APIs go to the developer portal and re
 
 * Click OK
 
-* In the left frame, click the /employees GET endpoint. In the right frame, click Execute. You should see a 2xx response code and a list of employees. As an app developer, you can use the portal to test the API paths and see real response data. From here, a developer could start coding an app that will consume the API.
+* In the left frame, click the /employees GET endpoint. In the right frame, click Execute. You should see a 2xx response code and a list of employees. As an app developer, you can use the portal to test the API paths and see real response data. From here, a developer could start coding an app that will consume the proxies included in the API products they registered.
 
 ![image alt text](./media/image_19.png)
 
