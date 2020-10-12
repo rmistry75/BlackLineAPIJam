@@ -1,6 +1,6 @@
 # API Security : Securing APIs with API Keys
 
-*Duration : 10 mins*
+*Duration : 15 mins*
 
 *Persona : API Team*
 
@@ -68,9 +68,9 @@ For this lab, you will need an API proxy that is not currently secured.  If you 
 
 ![image alt text](./media/image_5.png)
 
-* The policy will be added after any policies you previously had in the Request flow.  Since we likely want this to occur first, drag the new policy to be the leftmost of any policies in the flow.
+* This is the first policy we've added. However, if we had other policies then we could drag the VerifyKey policy to the leftmost position to ensure it executes first.
 
-* With the *Verify API Key* policy selected, you can see its configuration (the default policy configuration is below).  Note that the API Key is being retrieved from the context as the variable *request.queryparam.apikey*.  This is the default but the policy can be configured to retrieve the key from any parameter key you prefer.
+* With the *Verify API Key* policy selected, you can see its configuration (the default policy configuration is below).  Note that the API Key is being retrieved from the context as the variable *request.queryparam.apikey*.  This is the default but the policy can be configured to retrieve the key from any parameter key you prefer. See the [help docs](https://docs.apigee.com/api-platform/reference/policies/verify-api-key-policy) to learn the syntax for retrieving the key from other parameters.
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -95,6 +95,33 @@ For this lab, you will need an API proxy that is not currently secured.  If you 
 
 ![image alt text](./media/image_6.png)
 
+## Update the API Spec
+
+We can update our API's documentation to reflect the new Verify API Key policy.
+
+* Menu: **Develop > Specs > Employee Backend**
+
+* Scroll to the bottom and add the following lines. This specifies that an api key is required, it will be called apikey, and it will be found in the query parameters.
+
+```
+securityDefinitions:
+   APIKeyQueryParam:
+     type: apiKey
+     in: query
+     name: apikey
+```
+
+![image alt text](./media/image_7.png)
+
+* Scroll back to the top and add the following lines. This specifies that the APIKeyQueryParam security definition is applied to all paths in the api.
+
+```
+security:
+  - APIKeyQueryParam: []
+```
+
+![image alt text](./media/image_8.png)
+
 # Lab Video
 
 If you would rather watch a video that covers this topic, point your browser [here](https://youtu.be/3nUFCOgGlS8). (note: you only need to watch until the 3:00 minute mark for this specific lab).
@@ -114,6 +141,8 @@ In this lab you learned how to protect your API proxy using the Verify API Key p
 * Link to Apigee docs page
 
     * Verify Api Key Policy [https://docs.apigee.com/api-platform/reference/policies/verify-api-key-policy](https://docs.apigee.com/api-platform/reference/policies/verify-api-key-policy)
+    
+    * Visualizing the flow of an API proxy [https://docs.apigee.com/api-platform/fundamentals/introduction-flow-variables#understandingflowvariablescope](https://docs.apigee.com/api-platform/fundamentals/introduction-flow-variables#understandingflowvariablescope)
 
 # Rate this lab
 

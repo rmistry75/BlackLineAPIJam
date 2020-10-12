@@ -102,6 +102,22 @@ Typically, developers who want to consume APIs go to the developer portal and re
 
 ![image alt text](./media/image_17.png)
 
+# Test in the developer portal
+
+* Return to the developer portal and navigate to APIs > Employee Product
+
+* Click Authorize and select the app you registered previously (my-employee-app)
+
+![image alt text](./media/image_18.png)
+
+* Click Authorize
+
+* Click OK
+
+* In the left frame, click the /employees GET endpoint. In the right frame, click Execute. You should see a 2xx response code and a list of employees. As an app developer, you can use the portal to test the API paths and see real response data. From here, a developer could start coding an app that will consume the proxies included in the API products they registered.
+
+![image alt text](./media/image_19.png)
+
 # Lab Video
 
 If you like to learn by watching, here is a short video on consuming APIs using Apigee Developer Portal [https://youtu.be/nCJwlVF6waw](https://youtu.be/nCJwlVF6waw)
