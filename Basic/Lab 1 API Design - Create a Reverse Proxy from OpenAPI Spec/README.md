@@ -39,7 +39,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
   * URL: [https://raw.githubusercontent.com/rmistry75/APIJam/master/Basic/Resources/employee-spec.yaml](https://raw.githubusercontent.com/rmistry75/APIJam/master/Basic/Resources/employee-spec.yaml)
   
-  * Spec Name: Employee Backend
+  * Spec Name: {Your-Initials} Employee Backend (e.g. RM Employee Backend)
 
 * Click **Import** 
 
