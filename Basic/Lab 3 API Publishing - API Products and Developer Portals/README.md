@@ -54,7 +54,7 @@ API products (which contain API proxies) are the unit of deployment to the Devel
 
             * Select your Employee API Proxy and click **Add**.
 
-            ![image alt text](./media/image_2.png)
+            ![image alt text](./media/product-proxy.png)
 
 * **Save** the API Product.
 
