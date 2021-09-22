@@ -36,9 +36,9 @@ API products (which contain API proxies) are the unit of deployment to the Devel
 
     * Section: Product details
 
-        * Name: employee-product
+        * Name: {your-initials}-employee-product
         
-        * Display name: Employee Product
+        * Display name: {Your Initials} Employee Product
 
         * Description: Access the Employee API
 
@@ -70,7 +70,7 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 * Enter details in the portal creation wizard. 
 
-  * Name: Employee API Portal
+  * Name: {Your Initials} Employee API Portal
 
   * Description: Employee APIs
 
