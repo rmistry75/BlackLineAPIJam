@@ -97,6 +97,8 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 * Paste the URL into your API testing tool or curl and try it (e.g. curl https://{your-org}-test.apigee.net/xy-employees-api/employees)
 
+![image alt text](./media/curl.png)
+
 * You should see a success response (200 OK) with employee data in JSON format.
 
 # Download the API Proxy
