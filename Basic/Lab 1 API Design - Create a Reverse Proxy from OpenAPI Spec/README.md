@@ -67,7 +67,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 * You should see that the proxy has been created and deployed to the test environment as shown below. Click **Edit proxy**.
 ![image alt text](./media/image_14.png)
 
-* You should see the proxy "Overview" screen as shown below.  In the Deployments section, your URL should look like https://{your-org}-test.apigee.net/employees-api (where "{your-org}" is your unique Apigee org name) and in the Target Endpoints section your Target URL should be exactly as shown below.
+* You should see the proxy "Overview" screen as shown below.  In the Deployments section, your URL should look like https://{your-org}-test.apigee.net/{your-initials}-employees-api (where "{your-org}" is your unique Apigee org name, and "{your-initials}" are your initials) and in the Target Endpoints section your Target URL should be exactly as shown below.
 
 ![image alt text](./media/image_15.png)
 
