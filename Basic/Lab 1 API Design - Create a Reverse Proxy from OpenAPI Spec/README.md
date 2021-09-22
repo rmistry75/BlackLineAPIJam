@@ -43,11 +43,11 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 * Click **Import** 
 
-![image alt text](./media/image_8.png)
+![image alt text](./media/oas.jpg)
 
 * You should see the "Proxy details" screen as shown below. Leave the default values (unless there is a conflict). Click **Next** to continue.
 
-![image alt text](./media/image_9.png)
+![image alt text](./media/proxy.jpg)
 
 * You should see the "Policies" screen as shown below.  Leave the default values and click **Next** to continue.
 
