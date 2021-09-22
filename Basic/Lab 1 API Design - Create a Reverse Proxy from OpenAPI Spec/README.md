@@ -69,7 +69,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 * You should see the proxy "Overview" screen as shown below.  In the Deployments section, your URL should look like https://{your-org}-test.apigee.net/{your-initials}-employees-api (where "{your-org}" is your unique Apigee org name, and "{your-initials}" are your initials) and in the Target Endpoints section your Target URL should be exactly as shown below.
 
-![image alt text](./media/image_15.png)
+![image alt text](./media/overview.png)
 
 * *Congratulations!* ...You have now built a reverse proxy for an existing backend service.
 
