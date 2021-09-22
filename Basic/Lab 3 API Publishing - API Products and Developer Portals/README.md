@@ -30,7 +30,7 @@ API products (which contain API proxies) are the unit of deployment to the Devel
 
 * Click  **+API Product**
 
-![image alt text](./media/product.png)
+![image alt text](./media/image_0.png)
 
 * Populate the following fields
 
@@ -50,7 +50,7 @@ API products (which contain API proxies) are the unit of deployment to the Devel
 
             * Click the **Add a proxy** link
 
-            ![image alt text](./media/image_1.png)
+            ![image alt text](./media/product.png)
 
             * Select your Employee API Proxy and click **Add**.
 
