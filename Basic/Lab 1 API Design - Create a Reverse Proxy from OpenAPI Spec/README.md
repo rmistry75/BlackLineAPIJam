@@ -43,7 +43,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 * Click **Import** 
 
-![image alt text](./media/oas.jpg)
+![image alt text](./media/oas.png)
 
 * You should see the "Proxy details" screen as shown below. Leave the default values (unless there is a conflict). Click **Next** to continue.
 
