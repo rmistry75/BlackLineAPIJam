@@ -91,15 +91,13 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 # Test the API Proxy
 
-* Let us test the newly built API proxy using the [Apigee REST Client](https://apigee-restclient.appspot.com/). Open the REST Client in a new browser window.  
+* Let us test the newly built API proxy using your favorite API testing tool (e.g. PostMan, curl, or even just your web browser).  
 
-* Copy the URL for your API proxy.  It should be something like https://{your-org}-test.apigee.net/employees-api/employees (where "{your-org}" is your unique Apigee org name). 
+* Copy the URL for your API proxy.  It should be something like https://{your-org}-test.apigee.net/xy-employees-api/employees (where "{your-org}" is your Apigee org name). 
 
-* Paste the URL into the REST Client and make a GET call by clicking "Send".
+* Paste the URL into your API testing tool or curl and try it (e.g. curl https://{your-org}-test.apigee.net/xy-employees-api/employees)
 
-![image alt text](./media/image_18.png)
-
-* You should see a success response (200 OK) with employee data.
+* You should see a success response (200 OK) with employee data in JSON format.
 
 # Download the API Proxy
 
