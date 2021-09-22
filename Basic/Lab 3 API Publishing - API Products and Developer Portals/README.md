@@ -30,7 +30,7 @@ API products (which contain API proxies) are the unit of deployment to the Devel
 
 * Click  **+API Product**
 
-![image alt text](./media/image_0.png)
+![image alt text](./media/product.png)
 
 * Populate the following fields
 
@@ -39,8 +39,6 @@ API products (which contain API proxies) are the unit of deployment to the Devel
         * Name: {your-initials}-employee-product
         
         * Display name: {Your Initials} Employee Product
-
-        * Description: Access the Employee API
 
         * Environment: test
 
