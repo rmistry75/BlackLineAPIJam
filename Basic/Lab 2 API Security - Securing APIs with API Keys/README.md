@@ -99,7 +99,7 @@ For this lab, you will need an API proxy that is not currently secured.  If you 
 
 We can update our API's documentation to reflect the new Verify API Key policy.
 
-* Menu: **Develop > Specs > Employee Backend**
+* Menu: **Develop > Specs > {Your Initials} Employee Backend**
 
 * Scroll to the bottom and add the following lines. This specifies that an api key is required, it will be called apikey, and it will be found in the query parameters.
 
