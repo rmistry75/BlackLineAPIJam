@@ -82,7 +82,7 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 ![image alt text](./media/catalog.png)
 
-* Click **+API** to select an API Product to publish to the Portal.
+* Click **+** to select an API Product to publish to the Portal.
 
 * Select the API Product to publish and click **Next**.
 
